@@ -1,13 +1,18 @@
-import { useState } from "react";
-import Counter from "./components/Counter";
+// import { useState } from "react";
+// import Counter from "./components/Counter";
+
+import Oclock from "./components/Oclock";
+// import States from "./components/States";
+
+// import InputExample from "./components/InputExample";
 function App() {
-  const [name, setName] = useState("mehmet");
-  const [age, setAge] = useState(29);
-  const [friends, setFriends] = useState(["ahmet", "mahmut"]);
-  const [address, setAddress] = useState({ title: "izmir", zip: 35320 });
+  // const [name, setName] = useState("mehmet");
+  // const [age, setAge] = useState(29);
+  // const [friends, setFriends] = useState(["ahmet", "mahmut"]);
+  // const [address, setAddress] = useState({ title: "izmir", zip: 35320 });
   return (
     <div>
-      <h1>merhaba {name}</h1>
+      {/* <h1>merhaba {name}</h1>
       <h2>I'm {age} years old</h2>
       <button onClick={() => setName("veli")}>Click me for name</button>
       <button onClick={() => setAge(32)}>Click me for age</button>
@@ -37,7 +42,10 @@ function App() {
       >
         Click me for address
       </button>
-      <Counter />
+      <Counter /> */}
+      {/* <InputExample /> */}
+      {/* <States /> */}
+      <Oclock />
     </div>
   );
 }
