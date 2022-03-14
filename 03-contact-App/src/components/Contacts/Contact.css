@@ -1,0 +1,8 @@
+#container {
+  width: 400px;
+  background-color: lightblue;
+  text-align: center;
+}
+#container .title {
+  padding: 1rem 0;
+}
